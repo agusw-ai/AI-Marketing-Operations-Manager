@@ -149,7 +149,20 @@ AI-Marketing-Operations-Manager
 
 ---
 
-# 🚀 Installation
+## Demo
+
+Example request:
+
+Analyze ROAS 2.3, CTR 1.9%, CPC Rp900.
+
+Output:
+
+- Data Analyst analyzes KPIs.
+- Marketing Analyst recommends optimization.
+- Business Consultant recommends budget strategy.
+- Root Agent produces the executive summary.
+
+#  Installation
 
 Clone repository
 
