@@ -1,6 +1,7 @@
 from agents.root_agent import root_agent
 from agents.marketing_analyst import marketing_analyst
 from agents.data_analyst import data_analyst
+from agents.business_consultant import business_consultant
 
 print("=== Google ADK Demo ===")
 
@@ -19,3 +20,9 @@ print("Data Analyst")
 
 print(data_analyst.name)
 print(data_analyst.model)
+
+print()
+print("Business Consultant")
+
+print(business_consultant.name)
+print(business_consultant.model)
