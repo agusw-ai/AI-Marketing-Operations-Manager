@@ -4,6 +4,28 @@ A production-style Multi-Agent AI Marketing Assistant built with **Google Agent 
 
 This project demonstrates how multiple AI specialists collaborate to analyze digital marketing performance and generate strategic business recommendations.
 
+## Architecture
+
+![Architecture](docs/images/architecture.png)
+
+---
+
+## Data Analyst Routing
+
+![Data Analyst](docs/images/routing-data-analyst.png)
+
+---
+
+## Marketing Analyst Routing
+
+![Marketing Analyst](docs/images/routing-marketing-analyst.png)
+
+---
+
+## Business Consultant Routing
+
+![Business Consultant](docs/images/routing-business-consultant.png)
+
 ---
 
 ## ✨ Features
@@ -96,27 +118,7 @@ Responsibilities
 - VS Code
 
 ---
-## Architecture
 
-![Architecture](docs/images/architecture.png)
-
----
-
-## Data Analyst Routing
-
-![Data Analyst](docs/images/routing-data-analyst.png)
-
----
-
-## Marketing Analyst Routing
-
-![Marketing Analyst](docs/images/routing-marketing-analyst.png)
-
----
-
-## Business Consultant Routing
-
-![Business Consultant](docs/images/routing-business-consultant.png)
 
 # 📁 Project Structure
 
