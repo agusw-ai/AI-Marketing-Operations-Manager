@@ -1,5 +1,14 @@
 from agents.root_agent import root_agent
+from agents.marketing_analyst import marketing_analyst
 
-print("Agent loaded successfully!")
-print(f"Agent Name : {root_agent.name}")
-print(f"Model      : {root_agent.model}")
+print("=== Google ADK Demo ===")
+
+print()
+print("Root Agent")
+print(root_agent.name)
+print(root_agent.model)
+
+print()
+print("Marketing Analyst")
+print(marketing_analyst.name)
+print(marketing_analyst.model)
