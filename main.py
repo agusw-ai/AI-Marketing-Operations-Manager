@@ -1,28 +1,20 @@
 from agents.root_agent import root_agent
-from agents.marketing_analyst import marketing_analyst
-from agents.data_analyst import data_analyst
-from agents.business_consultant import business_consultant
 
-print("=== Google ADK Demo ===")
+print("=== AI Marketing Operations Manager ===")
 
 print()
+
 print("Root Agent")
 print(root_agent.name)
+
+print()
+
+print("Model")
 print(root_agent.model)
 
 print()
-print("Marketing Analyst")
-print(marketing_analyst.name)
-print(marketing_analyst.model)
 
-print()
-print("Data Analyst")
+print("Sub Agents")
 
-print(data_analyst.name)
-print(data_analyst.model)
-
-print()
-print("Business Consultant")
-
-print(business_consultant.name)
-print(business_consultant.model)
+for agent in root_agent.sub_agents:
+    print("-", agent.name)
