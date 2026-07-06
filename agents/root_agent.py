@@ -1,4 +1,7 @@
 from google.adk.agents import Agent
+from agents.marketing_analyst import marketing_analyst
+from agents.data_analyst import data_analyst
+from agents.business_consultant import business_consultant
 
 root_agent = Agent(
     name="marketing_operations_manager",
